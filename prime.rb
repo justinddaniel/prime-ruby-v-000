@@ -1,5 +1,6 @@
 def prime?(n)
-  if n < 0 return false
+  if n < 0 
+    return false;
   else
   array = []
   array =*(2..n-1)
